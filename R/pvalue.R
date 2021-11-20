@@ -14,6 +14,8 @@
 pvalue <- function (x) {
   if (class(x) != "lm") stop("Not an object of class 'lm'. You are using class: ", class(x))
   p <- summary(x)$coefficients[2,4]
-  return(p)
+  q <- ifelse(p < 0.05, "Congratulations! Your model is significant at 5% significance level.", "Sorry, your model is not significant at 5% significance level")
+  return(q)
 }
+
 
