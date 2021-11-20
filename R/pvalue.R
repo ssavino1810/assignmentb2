@@ -16,3 +16,4 @@ pvalue <- function (x) {
   p <- summary(x)$coefficients[2,4]
   return(p)
 }
+
