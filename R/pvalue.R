@@ -2,7 +2,7 @@
 #' @description Interprets the p-value and adjusted r-squared for a regression model
 #' @param x An object of class 'lm', your linear model 
 #' @param ifelse() Logical statement which tests a statement about the object in the brackets
-#' @param p Returns the p-value for the slope coefficient
+#' @param p Returns the p-value for the model
 #' @param q Interprets your p-value at 95% confidence level 
 #' @param r Returns the adjusted R-squared value for your model 
 #' @param s Interprets the adjusted R-squared value for your model  
