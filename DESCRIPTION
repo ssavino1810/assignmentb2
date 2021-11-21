@@ -1,5 +1,5 @@
 Package: assignmentb2
-Title: What the Package Does (One Line, Title Case)
+Title: Returns and interprets the p-value and adjusted r-squared of a model.
 Version: 0.1.0
 Authors@R: 
     person("Sara", "Savino", , "sarassavino@gmail.com")
