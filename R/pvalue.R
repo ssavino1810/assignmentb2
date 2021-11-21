@@ -1,4 +1,4 @@
-#' @title Determine significance of regression model
+#' @title pvalue
 #' @description Interprets the p-value and adjusted r-squared for a regression model
 #' @param x An object of class 'lm', your linear model 
 #' @param ifelse() Logical statement which tests a statement about the object in the brackets
